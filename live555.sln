@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "live555SDK", "live555SDK", "{5133FE1D-B7CC-4A60-9521-0C4669DA0CD1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicUsageEnvironment", "live555SDK\BasicUsageEnvironment\BasicUsageEnvironment.vcxproj", "{3F133D7A-E571-435E-9F30-68E2C0E661C2}"
@@ -14,6 +16,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555MediaServer", "live555MediaServer\live555MediaServer.vcxproj", "{82D242DF-CDFA-463E-984E-57808F7FC104}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openRTSP", "openRTSP\openRTSP.vcxproj", "{F618C498-E540-469F-8191-542CD122F45A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{057501EE-E5B8-49D6-B075-E170E2571DBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +123,22 @@ Global
 		{F618C498-E540-469F-8191-542CD122F45A}.Release64|Win32.ActiveCfg = Release|Win32
 		{F618C498-E540-469F-8191-542CD122F45A}.Release64|Win32.Build.0 = Release|Win32
 		{F618C498-E540-469F-8191-542CD122F45A}.Release64|x64.ActiveCfg = Release64|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug|Win32.Build.0 = Debug|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug|x64.ActiveCfg = Debug|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug|x64.Build.0 = Debug|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug64|Win32.ActiveCfg = Debug|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug64|Win32.Build.0 = Debug|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug64|x64.ActiveCfg = Debug|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Debug64|x64.Build.0 = Debug|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release|Win32.ActiveCfg = Release|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release|Win32.Build.0 = Release|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release|x64.ActiveCfg = Release|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release|x64.Build.0 = Release|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release64|Win32.ActiveCfg = Release|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release64|Win32.Build.0 = Release|Win32
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release64|x64.ActiveCfg = Release|x64
+		{057501EE-E5B8-49D6-B075-E170E2571DBA}.Release64|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,5 +148,8 @@ Global
 		{FD0D3506-82EA-4677-BA7B-C6963A1EC989} = {5133FE1D-B7CC-4A60-9521-0C4669DA0CD1}
 		{EF59271A-7ECE-4D5D-AA2B-CF6CFD7545BE} = {5133FE1D-B7CC-4A60-9521-0C4669DA0CD1}
 		{52EF891D-7980-4B59-810C-C92C71C75A9E} = {5133FE1D-B7CC-4A60-9521-0C4669DA0CD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCA9F450-81AE-46B7-9F59-75AE21D83E1F}
 	EndGlobalSection
 EndGlobal
